@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(63, 168, 240);
+}
+h1{
+    font-size: 60px;
+    color: black;
+    margin-bottom: 50px;
+}
+.show{
+ font-size: 70px;
+ margin-bottom: 30px;
+}
+.btns{
+    padding: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
